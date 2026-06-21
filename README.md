@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Campus Companion 🎓
 ### One Platform for Every Student Need.
 
@@ -104,3 +105,6 @@ To prevent unauthorized access, secure your database partitions using standard s
 - Users profile editing: All students can create Profiles.
 - Study planner / Bookmarks: Authorized to user owners only.
 - Notes / Placements / Events: Open globally for reads, requires student logs for contributions.
+=======
+# BVRITH-campus-companion
+>>>>>>> 032d0189a41a50ea5214e9773f52d6b4faf21784
