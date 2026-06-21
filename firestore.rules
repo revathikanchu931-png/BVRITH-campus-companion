@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Student profile matching (Allows sandbox guest and Google login)
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+    // 2. Syllabus study notes
+    match /notes/{noteId} {
+      allow read, write: if true;
+    }
+    // 3. Placement opportunities
+    match /placements/{placementId} {
+      allow read, write: if true;
+    }
+    // 4. College events and calendars
+    match /events/{eventId} {
+      allow read, write: if true;
+    }
+    // 5. Bookmarked items
+    match /saved_items/{savedId} {
+      allow read, write: if true;
+    }
+    // 6. Private study tasks
+    match /study_tasks/{taskId} {
+      allow read, write: if true;
+    }
+  }
+}

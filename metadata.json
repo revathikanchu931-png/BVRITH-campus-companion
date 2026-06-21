@@ -1,0 +1,6 @@
+{
+  "name": "BVRITH Campus Companion",
+  "description": "An all-in-one student productivity utility tailored for BVRIT HYDERABAD College of Engineering for Women. Streamlines study resource sharing, placement logs, event lists, attendance metrics, and AI chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
